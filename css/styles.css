@@ -83,9 +83,19 @@ a:visited {
 
 @keyframes wind {
   from {
-    top: -400px;
+    top: -4lightbox.css00px;
   }
   to{
     bottom: 800px;
   }
+}
+
+.gallery {
+  max-width: 900px;
+  display: inline;
+}
+
+.gallery h2{
+  margin-left: 10px;
+  font-size: 40px;
 }
