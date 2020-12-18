@@ -5,24 +5,45 @@
     <title>Bielicke Alt Site</title>
 
     <!--Main CSS StyleSheet-->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+
+    <!--jQuery-->
+    <sript src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
   </head>
 
 
   <body>
-    <header>
-      <h1>James Bielicke's Alt Page.</h1>
-    </header>
+    <main>
+      <header>
+        <h1>James Bielicke's Alt Page.</h1>
+      </header>
 
-    <section>
-      <p>Edward St. John Gorey (February 22, 1925 – April 15, 2000) was an American writer and artist noted for his illustrated books. His characteristic pen-and-ink drawings often depict vaguely unsettling narrative scenes in Victorian and Edwardian settings. His books may be found in the humor and cartoon sections of major bookstores, but books such as "The Object Lesson" have earned serious critical respect as works of surrealist art.</p>
-    </section>
+      <section class="top-section">
 
-    <figure class="ghouls">
-      <img src="images/ghastly.jpg" width=300px
-           alt="The Gashlycrumb Tinies">
-      <figcaption>The Gashlycrumb Tinies</figcaption>
-    </figure>
+        <div class="hero-image-section" id="home">
+          <img class="gorey-logo" src="images/eg-logo-shadow.png" alt="Edward Gorey" title="Edward Gorey" width="200px" />
+        </div>
 
+        <p>Edward St. John Gorey (February 22, 1925 – April 15, 2000) was an American writer and artist noted for his illustrated books. His characteristic pen-and-ink drawings often depict vaguely unsettling narrative scenes in Victorian and Edwardian settings. His books may be found in the humor and cartoon sections of major bookstores, but books such as "The Object Lesson" have earned serious critical respect as works of surrealist art.</p>
+      </section>
+
+        <figure class="ghouls">
+          <img src="images/ghastly.jpg" width=300px
+               alt="The Gashlycrumb Tinies">
+          <figcaption>The Gashlycrumb Tinies</figcaption>
+        </figure>
+
+        <a href="https://edwardgoreyhouse.org" target="_blank">Come Visit</a>
+
+        <img class="animation" src="images/eg-logo-2.png" alt="Floating Gorey" title="Floating Gorey" width="150px"/>
+
+      <!--JavaScript for Lightbox-->
+      <script src="js/lightbox.js"></script>
+    </main>
   </body>
 </html>

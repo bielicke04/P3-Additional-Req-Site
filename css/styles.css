@@ -20,6 +20,11 @@ p {
   text-align: left;
 }
 
+p::first-line {
+  color: #5e7942;
+  font-variant: small-caps;
+}
+
 
 header {
   background: #333;
@@ -34,5 +39,53 @@ section {
 }
 
 .ghouls {
-  margin: -25px 0px 0px 30px;
+  margin: 5px 0px 0px 11px;
+}
+
+.ghouls img:hover {
+  filter: invert(4);
+
+}
+
+.top-section {
+  background: #a9a9a9;
+}
+
+.top-section .gorey-logo {
+  float: left;
+}
+
+a {
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  margin: 20px 10px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #5e7942;
+}
+
+.animation {
+  position: absolute;
+  width: 400px;
+  top: 200px;
+  opacity: .5;
+  animation: wind 5s;
+}
+
+@keyframes wind {
+  from {
+    top: -400px;
+  }
+  to{
+    bottom: 800px;
+  }
 }
