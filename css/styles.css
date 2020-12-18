@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'IM Fell English', serif;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  margin: 18px 0 23px;
+  line-height: 25px;
+  text-align: left;
+}
+
+
+header {
+  background: #333;
+  color: white;
+  padding: 10px 30px 10px;
+}
+
+section {
+  padding: 20px;
+  max-width: 700px;
+  margin-left: 10px;
+}
+
+.ghouls {
+  margin: -25px 0px 0px 30px;
+}
