@@ -6,10 +6,12 @@
 
     <!--Main CSS StyleSheet-->
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
 
     <!--jQuery-->
-    <sript src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--LightBox-->
+    <link href="css/lightbox.css" rel="stylesheet" />
 
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -44,13 +46,18 @@
         <section class="gallery" id="gallery">
           <h2>More Edward Gorey Illustrations</h2>
           <div class="images-holder">
-            <img src="images/image-1.jpg" width=250px alt="Gorey Illustration 1">
-            <img src="images/image-2.jpg" width=300px alt="Gorey Illustration 2">
-            <img src="images/image-3.jpg" width=260px alt="Gorey Illustration 3">
+            <a href="images/image-1.jpg" data-lightbox="artwork"><img class="individual-gallery-image" src="images/image-1.jpg" alt=Gorey Artwork width=265px></a>
+
+            <a href="images/image-2.jpg" data-lightbox="artwork"><img class="individual-gallery-image" src="images/image-2.jpg" alt=Gorey Artwork width=300px></a>
+
+            <a href="images/image-3.jpg" data-lightbox="artwork"><img class="individual-gallery-image" src="images/image-3.jpg" alt=Gorey Artwork width=263px></a>
+
+            <a href="images/image-4.jpg" data-lightbox="artwork"><img class="individual-gallery-image" src="images/image-4.jpg" alt=Gorey Artwork width=263px></a>
+
           </div>
         </section>
-
-
     </main>
+
+    <script src="js/lightbox.js"></script>
   </body>
 </html>
