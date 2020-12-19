@@ -77,16 +77,17 @@ a:visited {
   position: absolute;
   width: 400px;
   top: 200px;
+  margin: 45px 500px 0px 350px;
   opacity: .5;
   animation: wind 5s;
 }
 
 @keyframes wind {
   from {
-    top: -4lightbox.css00px;
+    top: -400px;
   }
   to{
-    bottom: 800px;
+    bottom: 850px;
   }
 }
 
